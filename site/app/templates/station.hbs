@@ -5,6 +5,13 @@
   <li> <strong>Street Address:</strong> {{model.station.stAddress1}} </li>
 </ul>
 
+<iframe
+  width="300"
+  height="300"
+  frameborder="0" style="border:0"
+  {{bind-attr src=googleMapsUrl}}>
+</iframe>
+
 <h2>Curret Weather</h2>
 <ul>
   <li> <strong>Temperature:</strong> {{currentWeather.temperature}}° F</li>
@@ -13,7 +20,7 @@
 
 <h2>Facts</h2>
 
-Today is a {{dayOfWeek}}. There are normally bikes available on {{dayOfWeek}} {{h-percent dayOfWeekPercent}} of the time.
+Today is {{dayOfWeek}}. There are normally bikes available on {{dayOfWeek}} {{h-percent dayOfWeekPercent}} of the time.
 <br>
 It's about {{nearestFifteenDisplay}}. There are normally bikes available {{h-percent nearestFifteenPercent}} of the time.
 <br>
@@ -24,6 +31,10 @@ When it's in the {{degreesInTens}}°s, there are normally bikes {{h-percent degr
 When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summaryPercent}} of the time.
 
 <h2>Prediction</h2>
+
+<h3>There's a {{h-percent pHasBikes}} chance there will be bikes at {{model.station.location}}</h3>
+
+<h3>Math</h3>
 
 <code>
   P(dayOfWeek = {{dayOfWeek}} | hasBikes = true) = {{h-percent pDayOfWeekTrue}}

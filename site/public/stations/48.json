@@ -1,0 +1,1266 @@
+{
+  "id": 48,
+  "stationName": "Larrabee St & Kingsbury St",
+  "latitude": 41.897764,
+  "longitude": -87.642884,
+  "stAddress1": "Larrabee St & Kingsbury St",
+  "stAddress2": "",
+  "city": "",
+  "postalCode": "",
+  "location": "840 N. Larrabee St.",
+  "altitude": "",
+  "testStation": false,
+  "lastCommunicationTime": null,
+  "landMark": "012",
+  "bikeCounts": {
+    "truePoints": 21377,
+    "statusValue": {
+      "In Service": {
+        "count": 21377,
+        "total": 21688
+      },
+      "Not In Service": {
+        "count": 0,
+        "total": 537
+      }
+    },
+    "timeOfDay": {
+      "0": {
+        "count": 225,
+        "total": 232
+      },
+      "15": {
+        "count": 224,
+        "total": 231
+      },
+      "30": {
+        "count": 224,
+        "total": 231
+      },
+      "45": {
+        "count": 225,
+        "total": 231
+      },
+      "60": {
+        "count": 222,
+        "total": 229
+      },
+      "75": {
+        "count": 222,
+        "total": 230
+      },
+      "90": {
+        "count": 221,
+        "total": 229
+      },
+      "105": {
+        "count": 222,
+        "total": 230
+      },
+      "120": {
+        "count": 222,
+        "total": 230
+      },
+      "135": {
+        "count": 221,
+        "total": 228
+      },
+      "150": {
+        "count": 223,
+        "total": 230
+      },
+      "165": {
+        "count": 220,
+        "total": 227
+      },
+      "180": {
+        "count": 221,
+        "total": 228
+      },
+      "195": {
+        "count": 224,
+        "total": 231
+      },
+      "210": {
+        "count": 224,
+        "total": 231
+      },
+      "225": {
+        "count": 223,
+        "total": 230
+      },
+      "240": {
+        "count": 223,
+        "total": 230
+      },
+      "255": {
+        "count": 224,
+        "total": 231
+      },
+      "270": {
+        "count": 223,
+        "total": 230
+      },
+      "285": {
+        "count": 224,
+        "total": 231
+      },
+      "300": {
+        "count": 224,
+        "total": 231
+      },
+      "315": {
+        "count": 224,
+        "total": 231
+      },
+      "330": {
+        "count": 226,
+        "total": 233
+      },
+      "345": {
+        "count": 225,
+        "total": 232
+      },
+      "360": {
+        "count": 225,
+        "total": 231
+      },
+      "375": {
+        "count": 225,
+        "total": 232
+      },
+      "390": {
+        "count": 224,
+        "total": 231
+      },
+      "405": {
+        "count": 227,
+        "total": 233
+      },
+      "420": {
+        "count": 226,
+        "total": 233
+      },
+      "435": {
+        "count": 228,
+        "total": 233
+      },
+      "450": {
+        "count": 228,
+        "total": 233
+      },
+      "465": {
+        "count": 228,
+        "total": 233
+      },
+      "480": {
+        "count": 228,
+        "total": 233
+      },
+      "495": {
+        "count": 228,
+        "total": 233
+      },
+      "510": {
+        "count": 228,
+        "total": 233
+      },
+      "525": {
+        "count": 228,
+        "total": 233
+      },
+      "540": {
+        "count": 228,
+        "total": 233
+      },
+      "555": {
+        "count": 228,
+        "total": 233
+      },
+      "570": {
+        "count": 228,
+        "total": 233
+      },
+      "585": {
+        "count": 227,
+        "total": 232
+      },
+      "600": {
+        "count": 228,
+        "total": 233
+      },
+      "615": {
+        "count": 227,
+        "total": 232
+      },
+      "630": {
+        "count": 227,
+        "total": 232
+      },
+      "645": {
+        "count": 227,
+        "total": 232
+      },
+      "660": {
+        "count": 227,
+        "total": 232
+      },
+      "675": {
+        "count": 227,
+        "total": 232
+      },
+      "690": {
+        "count": 227,
+        "total": 232
+      },
+      "705": {
+        "count": 227,
+        "total": 232
+      },
+      "720": {
+        "count": 226,
+        "total": 231
+      },
+      "735": {
+        "count": 227,
+        "total": 231
+      },
+      "750": {
+        "count": 227,
+        "total": 231
+      },
+      "765": {
+        "count": 224,
+        "total": 230
+      },
+      "780": {
+        "count": 226,
+        "total": 231
+      },
+      "795": {
+        "count": 225,
+        "total": 231
+      },
+      "810": {
+        "count": 225,
+        "total": 231
+      },
+      "825": {
+        "count": 225,
+        "total": 230
+      },
+      "840": {
+        "count": 225,
+        "total": 231
+      },
+      "855": {
+        "count": 226,
+        "total": 231
+      },
+      "870": {
+        "count": 224,
+        "total": 231
+      },
+      "885": {
+        "count": 223,
+        "total": 230
+      },
+      "900": {
+        "count": 223,
+        "total": 230
+      },
+      "915": {
+        "count": 224,
+        "total": 231
+      },
+      "930": {
+        "count": 222,
+        "total": 229
+      },
+      "945": {
+        "count": 224,
+        "total": 230
+      },
+      "960": {
+        "count": 223,
+        "total": 230
+      },
+      "975": {
+        "count": 225,
+        "total": 232
+      },
+      "990": {
+        "count": 225,
+        "total": 232
+      },
+      "1005": {
+        "count": 224,
+        "total": 232
+      },
+      "1020": {
+        "count": 225,
+        "total": 232
+      },
+      "1035": {
+        "count": 223,
+        "total": 230
+      },
+      "1050": {
+        "count": 218,
+        "total": 232
+      },
+      "1065": {
+        "count": 217,
+        "total": 232
+      },
+      "1080": {
+        "count": 212,
+        "total": 232
+      },
+      "1095": {
+        "count": 208,
+        "total": 232
+      },
+      "1110": {
+        "count": 209,
+        "total": 231
+      },
+      "1125": {
+        "count": 201,
+        "total": 231
+      },
+      "1140": {
+        "count": 211,
+        "total": 232
+      },
+      "1155": {
+        "count": 206,
+        "total": 232
+      },
+      "1170": {
+        "count": 209,
+        "total": 231
+      },
+      "1185": {
+        "count": 204,
+        "total": 232
+      },
+      "1200": {
+        "count": 207,
+        "total": 232
+      },
+      "1215": {
+        "count": 211,
+        "total": 232
+      },
+      "1230": {
+        "count": 212,
+        "total": 231
+      },
+      "1245": {
+        "count": 213,
+        "total": 232
+      },
+      "1260": {
+        "count": 217,
+        "total": 232
+      },
+      "1275": {
+        "count": 218,
+        "total": 232
+      },
+      "1290": {
+        "count": 219,
+        "total": 233
+      },
+      "1305": {
+        "count": 221,
+        "total": 233
+      },
+      "1320": {
+        "count": 225,
+        "total": 233
+      },
+      "1335": {
+        "count": 226,
+        "total": 233
+      },
+      "1350": {
+        "count": 228,
+        "total": 234
+      },
+      "1365": {
+        "count": 227,
+        "total": 233
+      },
+      "1380": {
+        "count": 228,
+        "total": 234
+      },
+      "1395": {
+        "count": 228,
+        "total": 234
+      },
+      "1410": {
+        "count": 228,
+        "total": 234
+      },
+      "1425": {
+        "count": 226,
+        "total": 233
+      }
+    },
+    "dayOfWeek": {
+      "0": {
+        "count": 3064,
+        "total": 3110
+      },
+      "1": {
+        "count": 2917,
+        "total": 3070
+      },
+      "2": {
+        "count": 2977,
+        "total": 3153
+      },
+      "3": {
+        "count": 3116,
+        "total": 3265
+      },
+      "4": {
+        "count": 3188,
+        "total": 3311
+      },
+      "5": {
+        "count": 3017,
+        "total": 3150
+      },
+      "6": {
+        "count": 3098,
+        "total": 3166
+      }
+    },
+    "temperature": {
+      "0": {
+        "count": 932,
+        "total": 1140
+      },
+      "10": {
+        "count": 1997,
+        "total": 2136
+      },
+      "20": {
+        "count": 3721,
+        "total": 3777
+      },
+      "30": {
+        "count": 4635,
+        "total": 4654
+      },
+      "40": {
+        "count": 4985,
+        "total": 5054
+      },
+      "50": {
+        "count": 2934,
+        "total": 3032
+      },
+      "60": {
+        "count": 1495,
+        "total": 1569
+      },
+      "70": {
+        "count": 427,
+        "total": 447
+      },
+      "80": {
+        "count": 63,
+        "total": 76
+      },
+      "-10": {
+        "count": 184,
+        "total": 268
+      },
+      "-20": {
+        "count": 4,
+        "total": 72
+      }
+    },
+    "summary": {
+      "Clear": {
+        "count": 12423,
+        "total": 12953
+      },
+      "Partly Cloudy": {
+        "count": 1937,
+        "total": 2004
+      },
+      "Mostly Cloudy": {
+        "count": 1827,
+        "total": 1895
+      },
+      "Foggy": {
+        "count": 232,
+        "total": 240
+      },
+      "Drizzle": {
+        "count": 280,
+        "total": 280
+      },
+      "Light Rain": {
+        "count": 542,
+        "total": 544
+      },
+      "Rain": {
+        "count": 220,
+        "total": 232
+      },
+      "Overcast": {
+        "count": 2190,
+        "total": 2254
+      },
+      "Heavy Rain": {
+        "count": 20,
+        "total": 20
+      },
+      "Humid": {
+        "count": 24,
+        "total": 24
+      },
+      "Breezy": {
+        "count": 429,
+        "total": 479
+      },
+      "Breezy and Overcast": {
+        "count": 76,
+        "total": 76
+      },
+      "Breezy and Partly Cloudy": {
+        "count": 72,
+        "total": 72
+      },
+      "Light Snow": {
+        "count": 445,
+        "total": 449
+      },
+      "Rain and Windy": {
+        "count": 4,
+        "total": 4
+      },
+      "Light Rain and Windy": {
+        "count": 24,
+        "total": 24
+      },
+      "Windy and Overcast": {
+        "count": 66,
+        "total": 66
+      },
+      "Windy": {
+        "count": 164,
+        "total": 180
+      },
+      "Windy and Mostly Cloudy": {
+        "count": 36,
+        "total": 36
+      },
+      "Snow": {
+        "count": 88,
+        "total": 88
+      },
+      "Flurries": {
+        "count": 40,
+        "total": 40
+      },
+      "Windy and Partly Cloudy": {
+        "count": 4,
+        "total": 8
+      },
+      "Light Snow and Breezy": {
+        "count": 44,
+        "total": 44
+      },
+      "Snow and Windy": {
+        "count": 12,
+        "total": 12
+      },
+      "Light Snow and Windy": {
+        "count": 8,
+        "total": 20
+      },
+      "Breezy and Mostly Cloudy": {
+        "count": 28,
+        "total": 36
+      },
+      "Heavy Snow": {
+        "count": 4,
+        "total": 4
+      },
+      "Heavy Snow and Windy": {
+        "count": 4,
+        "total": 4
+      },
+      "Snow and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Drizzle and Windy": {
+        "count": 12,
+        "total": 12
+      },
+      "Light Rain and Breezy": {
+        "count": 45,
+        "total": 45
+      },
+      "Flurries and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Drizzle and Breezy": {
+        "count": 24,
+        "total": 24
+      },
+      "Dry": {
+        "count": 29,
+        "total": 32
+      },
+      "Dry and Mostly Cloudy": {
+        "count": 8,
+        "total": 8
+      },
+      "Heavy Rain and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Dry and Partly Cloudy": {
+        "count": 4,
+        "total": 4
+      }
+    }
+  },
+  "dockCounts": {
+    "truePoints": 21611,
+    "statusValue": {
+      "In Service": {
+        "count": 21611,
+        "total": 21688
+      },
+      "Not In Service": {
+        "count": 0,
+        "total": 537
+      }
+    },
+    "timeOfDay": {
+      "0": {
+        "count": 226,
+        "total": 232
+      },
+      "15": {
+        "count": 225,
+        "total": 231
+      },
+      "30": {
+        "count": 225,
+        "total": 231
+      },
+      "45": {
+        "count": 225,
+        "total": 231
+      },
+      "60": {
+        "count": 223,
+        "total": 229
+      },
+      "75": {
+        "count": 224,
+        "total": 230
+      },
+      "90": {
+        "count": 223,
+        "total": 229
+      },
+      "105": {
+        "count": 224,
+        "total": 230
+      },
+      "120": {
+        "count": 224,
+        "total": 230
+      },
+      "135": {
+        "count": 222,
+        "total": 228
+      },
+      "150": {
+        "count": 224,
+        "total": 230
+      },
+      "165": {
+        "count": 221,
+        "total": 227
+      },
+      "180": {
+        "count": 222,
+        "total": 228
+      },
+      "195": {
+        "count": 225,
+        "total": 231
+      },
+      "210": {
+        "count": 225,
+        "total": 231
+      },
+      "225": {
+        "count": 224,
+        "total": 230
+      },
+      "240": {
+        "count": 224,
+        "total": 230
+      },
+      "255": {
+        "count": 225,
+        "total": 231
+      },
+      "270": {
+        "count": 224,
+        "total": 230
+      },
+      "285": {
+        "count": 225,
+        "total": 231
+      },
+      "300": {
+        "count": 225,
+        "total": 231
+      },
+      "315": {
+        "count": 225,
+        "total": 231
+      },
+      "330": {
+        "count": 227,
+        "total": 233
+      },
+      "345": {
+        "count": 226,
+        "total": 232
+      },
+      "360": {
+        "count": 225,
+        "total": 231
+      },
+      "375": {
+        "count": 226,
+        "total": 232
+      },
+      "390": {
+        "count": 225,
+        "total": 231
+      },
+      "405": {
+        "count": 227,
+        "total": 233
+      },
+      "420": {
+        "count": 227,
+        "total": 233
+      },
+      "435": {
+        "count": 228,
+        "total": 233
+      },
+      "450": {
+        "count": 228,
+        "total": 233
+      },
+      "465": {
+        "count": 228,
+        "total": 233
+      },
+      "480": {
+        "count": 227,
+        "total": 233
+      },
+      "495": {
+        "count": 227,
+        "total": 233
+      },
+      "510": {
+        "count": 227,
+        "total": 233
+      },
+      "525": {
+        "count": 224,
+        "total": 233
+      },
+      "540": {
+        "count": 224,
+        "total": 233
+      },
+      "555": {
+        "count": 222,
+        "total": 233
+      },
+      "570": {
+        "count": 220,
+        "total": 233
+      },
+      "585": {
+        "count": 222,
+        "total": 232
+      },
+      "600": {
+        "count": 223,
+        "total": 233
+      },
+      "615": {
+        "count": 223,
+        "total": 232
+      },
+      "630": {
+        "count": 225,
+        "total": 232
+      },
+      "645": {
+        "count": 224,
+        "total": 232
+      },
+      "660": {
+        "count": 226,
+        "total": 232
+      },
+      "675": {
+        "count": 227,
+        "total": 232
+      },
+      "690": {
+        "count": 227,
+        "total": 232
+      },
+      "705": {
+        "count": 227,
+        "total": 232
+      },
+      "720": {
+        "count": 225,
+        "total": 231
+      },
+      "735": {
+        "count": 227,
+        "total": 231
+      },
+      "750": {
+        "count": 226,
+        "total": 231
+      },
+      "765": {
+        "count": 225,
+        "total": 230
+      },
+      "780": {
+        "count": 227,
+        "total": 231
+      },
+      "795": {
+        "count": 226,
+        "total": 231
+      },
+      "810": {
+        "count": 226,
+        "total": 231
+      },
+      "825": {
+        "count": 225,
+        "total": 230
+      },
+      "840": {
+        "count": 226,
+        "total": 231
+      },
+      "855": {
+        "count": 226,
+        "total": 231
+      },
+      "870": {
+        "count": 224,
+        "total": 231
+      },
+      "885": {
+        "count": 224,
+        "total": 230
+      },
+      "900": {
+        "count": 220,
+        "total": 230
+      },
+      "915": {
+        "count": 219,
+        "total": 231
+      },
+      "930": {
+        "count": 218,
+        "total": 229
+      },
+      "945": {
+        "count": 223,
+        "total": 230
+      },
+      "960": {
+        "count": 222,
+        "total": 230
+      },
+      "975": {
+        "count": 224,
+        "total": 232
+      },
+      "990": {
+        "count": 225,
+        "total": 232
+      },
+      "1005": {
+        "count": 226,
+        "total": 232
+      },
+      "1020": {
+        "count": 226,
+        "total": 232
+      },
+      "1035": {
+        "count": 223,
+        "total": 230
+      },
+      "1050": {
+        "count": 226,
+        "total": 232
+      },
+      "1065": {
+        "count": 226,
+        "total": 232
+      },
+      "1080": {
+        "count": 226,
+        "total": 232
+      },
+      "1095": {
+        "count": 226,
+        "total": 232
+      },
+      "1110": {
+        "count": 225,
+        "total": 231
+      },
+      "1125": {
+        "count": 225,
+        "total": 231
+      },
+      "1140": {
+        "count": 226,
+        "total": 232
+      },
+      "1155": {
+        "count": 226,
+        "total": 232
+      },
+      "1170": {
+        "count": 225,
+        "total": 231
+      },
+      "1185": {
+        "count": 226,
+        "total": 232
+      },
+      "1200": {
+        "count": 226,
+        "total": 232
+      },
+      "1215": {
+        "count": 226,
+        "total": 232
+      },
+      "1230": {
+        "count": 225,
+        "total": 231
+      },
+      "1245": {
+        "count": 226,
+        "total": 232
+      },
+      "1260": {
+        "count": 226,
+        "total": 232
+      },
+      "1275": {
+        "count": 226,
+        "total": 232
+      },
+      "1290": {
+        "count": 227,
+        "total": 233
+      },
+      "1305": {
+        "count": 227,
+        "total": 233
+      },
+      "1320": {
+        "count": 227,
+        "total": 233
+      },
+      "1335": {
+        "count": 227,
+        "total": 233
+      },
+      "1350": {
+        "count": 228,
+        "total": 234
+      },
+      "1365": {
+        "count": 227,
+        "total": 233
+      },
+      "1380": {
+        "count": 228,
+        "total": 234
+      },
+      "1395": {
+        "count": 228,
+        "total": 234
+      },
+      "1410": {
+        "count": 228,
+        "total": 234
+      },
+      "1425": {
+        "count": 227,
+        "total": 233
+      }
+    },
+    "dayOfWeek": {
+      "0": {
+        "count": 3075,
+        "total": 3110
+      },
+      "1": {
+        "count": 2965,
+        "total": 3070
+      },
+      "2": {
+        "count": 3040,
+        "total": 3153
+      },
+      "3": {
+        "count": 3153,
+        "total": 3265
+      },
+      "4": {
+        "count": 3223,
+        "total": 3311
+      },
+      "5": {
+        "count": 3038,
+        "total": 3150
+      },
+      "6": {
+        "count": 3117,
+        "total": 3166
+      }
+    },
+    "temperature": {
+      "0": {
+        "count": 932,
+        "total": 1140
+      },
+      "10": {
+        "count": 2007,
+        "total": 2136
+      },
+      "20": {
+        "count": 3729,
+        "total": 3777
+      },
+      "30": {
+        "count": 4652,
+        "total": 4654
+      },
+      "40": {
+        "count": 5024,
+        "total": 5054
+      },
+      "50": {
+        "count": 3003,
+        "total": 3032
+      },
+      "60": {
+        "count": 1558,
+        "total": 1569
+      },
+      "70": {
+        "count": 445,
+        "total": 447
+      },
+      "80": {
+        "count": 73,
+        "total": 76
+      },
+      "-10": {
+        "count": 184,
+        "total": 268
+      },
+      "-20": {
+        "count": 4,
+        "total": 72
+      }
+    },
+    "summary": {
+      "Clear": {
+        "count": 12571,
+        "total": 12953
+      },
+      "Partly Cloudy": {
+        "count": 1962,
+        "total": 2004
+      },
+      "Mostly Cloudy": {
+        "count": 1846,
+        "total": 1895
+      },
+      "Foggy": {
+        "count": 232,
+        "total": 240
+      },
+      "Drizzle": {
+        "count": 277,
+        "total": 280
+      },
+      "Light Rain": {
+        "count": 543,
+        "total": 544
+      },
+      "Rain": {
+        "count": 232,
+        "total": 232
+      },
+      "Overcast": {
+        "count": 2220,
+        "total": 2254
+      },
+      "Heavy Rain": {
+        "count": 20,
+        "total": 20
+      },
+      "Humid": {
+        "count": 24,
+        "total": 24
+      },
+      "Breezy": {
+        "count": 428,
+        "total": 479
+      },
+      "Breezy and Overcast": {
+        "count": 76,
+        "total": 76
+      },
+      "Breezy and Partly Cloudy": {
+        "count": 72,
+        "total": 72
+      },
+      "Light Snow": {
+        "count": 445,
+        "total": 449
+      },
+      "Rain and Windy": {
+        "count": 4,
+        "total": 4
+      },
+      "Light Rain and Windy": {
+        "count": 24,
+        "total": 24
+      },
+      "Windy and Overcast": {
+        "count": 66,
+        "total": 66
+      },
+      "Windy": {
+        "count": 164,
+        "total": 180
+      },
+      "Windy and Mostly Cloudy": {
+        "count": 36,
+        "total": 36
+      },
+      "Snow": {
+        "count": 88,
+        "total": 88
+      },
+      "Flurries": {
+        "count": 40,
+        "total": 40
+      },
+      "Windy and Partly Cloudy": {
+        "count": 4,
+        "total": 8
+      },
+      "Light Snow and Breezy": {
+        "count": 44,
+        "total": 44
+      },
+      "Snow and Windy": {
+        "count": 12,
+        "total": 12
+      },
+      "Light Snow and Windy": {
+        "count": 8,
+        "total": 20
+      },
+      "Breezy and Mostly Cloudy": {
+        "count": 28,
+        "total": 36
+      },
+      "Heavy Snow": {
+        "count": 4,
+        "total": 4
+      },
+      "Heavy Snow and Windy": {
+        "count": 4,
+        "total": 4
+      },
+      "Snow and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Drizzle and Windy": {
+        "count": 12,
+        "total": 12
+      },
+      "Light Rain and Breezy": {
+        "count": 45,
+        "total": 45
+      },
+      "Flurries and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Drizzle and Breezy": {
+        "count": 24,
+        "total": 24
+      },
+      "Dry": {
+        "count": 32,
+        "total": 32
+      },
+      "Dry and Mostly Cloudy": {
+        "count": 8,
+        "total": 8
+      },
+      "Heavy Rain and Breezy": {
+        "count": 4,
+        "total": 4
+      },
+      "Dry and Partly Cloudy": {
+        "count": 4,
+        "total": 4
+      }
+    }
+  },
+  "totalPoints": 22225
+}

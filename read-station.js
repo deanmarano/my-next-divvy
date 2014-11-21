@@ -94,8 +94,6 @@ var addWeatherData = function(id) {
   jf.writeFileSync(filename, data);
 };
 
-//addWeatherData(100);
-processStation(100);
 
 var writeBrowserData = function(id) {
   var filename = './stations/' + id + '.json';
@@ -104,4 +102,6 @@ var writeBrowserData = function(id) {
   jf.writeFileSync('./site/public/stations/' + id + '.json', data);
 };
 
-writeBrowserData(100);
+addWeatherData(48);
+processStation(48);
+writeBrowserData(48);

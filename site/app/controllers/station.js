@@ -2,6 +2,12 @@ import Ember from 'ember';
 /* global moment */
 
 export default Ember.Controller.extend({
+  googleMapsUrl: function() {
+    var apiKey = 'AIzaSyB4OByFbR_abmKPJ-03vHq_Jp2p2HTjqB0';
+    var station = this.get('model.station');
+    var latLong = "%@,%@".fmt(station.latitude, station.longitude);
+    return "https://www.google.com/maps/embed/v1/view?key=%@&center=%@&zoom=17".fmt(apiKey, latLong);
+  }.property('model'),
   bikeTruePoints: Ember.computed.alias('model.station.bikeCounts.truePoints'),
   bikeFalsePoints: function() {
     return this.get('model.station.totalPoints') - this.get('bikeTruePoints');
