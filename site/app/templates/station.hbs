@@ -1,0 +1,60 @@
+<h2>Station Info</h2>
+<ul>
+  <li> <strong>ID:</strong> {{model.station.id}} </li>
+  <li> <strong>Location:</strong> {{model.station.location}} </li>
+  <li> <strong>Street Address:</strong> {{model.station.stAddress1}} </li>
+</ul>
+
+<h2>Curret Weather</h2>
+<ul>
+  <li> <strong>Temperature:</strong> {{currentWeather.temperature}}° F</li>
+  <li> <strong>Conditions:</strong> {{currentWeather.summary}}</li>
+</ul>
+
+<h2>Facts</h2>
+
+Today is a {{dayOfWeek}}. There are normally bikes available on {{dayOfWeek}} {{h-percent dayOfWeekPercent}} of the time.
+<br>
+It's about {{nearestFifteenDisplay}}. There are normally bikes available {{h-percent nearestFifteenPercent}} of the time.
+<br>
+This station is in service {{h-percent inServicePercent}} of the time.
+<br>
+When it's in the {{degreesInTens}}°s, there are normally bikes {{h-percent degreesInTensPercent}} of the time.
+<br>
+When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summaryPercent}} of the time.
+
+<h2>Prediction</h2>
+
+<code>
+  P(dayOfWeek = {{dayOfWeek}} | hasBikes = true) = {{h-percent pDayOfWeekTrue}}
+  <br>
+  P(timeOfDay = {{nearestFifteenDisplay}} | hasBikes = true) = {{h-percent pTimeOfDayTrue}}
+  <br>
+  P(degrees = {{degreesInTens}}°s | hasBikes = true) = {{h-percent pDegreesTrue}}
+  <br>
+  P(conditions = {{currentWeather.summary}} | hasBikes = true) = {{h-percent pSummaryTrue}}
+  <br>
+<code>
+
+<br>
+
+<code>
+  P(dayOfWeek = {{dayOfWeek}} | hasBikes = false) = {{h-percent pDayOfWeekFalse}}
+  <br>
+  P(timeOfDay = {{nearestFifteenDisplay}} | hasBikes = false) = {{h-percent pTimeOfDayFalse}}
+  <br>
+  P(degrees = {{degreesInTens}}°s | hasBikes = false) = {{h-percent pDegreesFalse}}
+  <br>
+  P(conditions = {{currentWeather.summary}} | hasBikes = false) = {{h-percent pSummaryFalse}}
+  <br>
+<code>
+
+<br>
+
+<code>
+  P({{dayOfWeek}} | true) P({{nearestFifteenDisplay}} | true) P({{degreesInTens}}°s | true) P({{currentWeather.summary}} | true) = {{h-percent pTotalTrue}}
+  <br>
+  P({{dayOfWeek}} | false) P({{nearestFifteenDisplay}} | false) P({{degreesInTens}}°s | false) P({{currentWeather.summary}} | false) = {{h-percent pTotalFalse}}
+  <br>
+  {{h-percent pTotalTrue}} / ({{h-percent pTotalTrue}} + {{h-percent pTotalFalse}}) = {{h-percent pHasBikes}}
+<code>

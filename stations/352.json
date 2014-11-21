@@ -1,0 +1,32 @@
+{
+  "id": 352,
+  "points": {
+    "2013-10-28 01:29:01 PM": {
+      "availableDocks": 0,
+      "totalDocks": 0
+    },
+    "2013-10-28 01:44:01 PM": {
+      "availableDocks": 9,
+      "totalDocks": 9
+    },
+    "2013-10-28 01:59:01 PM": {
+      "availableDocks": 9,
+      "totalDocks": 9
+    }
+  },
+  "stationName": "PBSC-10",
+  "latitude": 0,
+  "longitude": 0,
+  "statusValue": "In Service",
+  "statusKey": 1,
+  "availableBikes": 0,
+  "stAddress1": "PBSC test",
+  "stAddress2": "",
+  "city": "",
+  "postalCode": "",
+  "location": "",
+  "altitude": "",
+  "testStation": false,
+  "lastCommunicationTime": null,
+  "landMark": ""
+}

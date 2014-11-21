@@ -1,0 +1,7 @@
+<ul>
+  {{#each station in model}}
+    <li>{{link-to station.name 'station' station.id}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
