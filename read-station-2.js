@@ -77,5 +77,5 @@ var writeBrowserData = function(id) {
 };
 
 //addWeatherData(48);
-processStation(48);
+processStation(100);
 //writeBrowserData(48);
