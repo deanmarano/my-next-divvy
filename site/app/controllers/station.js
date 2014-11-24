@@ -2,6 +2,15 @@ import Ember from 'ember';
 /* global moment */
 
 export default Ember.Controller.extend({
+  current: function() {
+    var time = this.get('nearestFifteen');
+    return {
+      dayOfWeek: this.get('predictingFor').weekday(),
+      timeOfDay: time.hour() * 60 + time.minute(),
+      temperature: this.get('degreesInTens'),
+      summary: this.get('currentWeather.summary')
+    };
+  }.property('dayOfWeek', 'nearestFifteen','degreesInTens', 'currentWeather'),
   googleMapsUrl: function() {
     var apiKey = 'AIzaSyB4OByFbR_abmKPJ-03vHq_Jp2p2HTjqB0';
     var station = this.get('model.station');
@@ -12,15 +21,18 @@ export default Ember.Controller.extend({
   bikeFalsePoints: function() {
     return this.get('model.station.totalPoints') - this.get('bikeTruePoints');
   }.property('bikeTruePoints', 'model'),
+  predictingFor: function() {
+    return moment();
+  }.property(),
   dayOfWeek: function() {
-    return moment().format('dddd');
+    return this.get('predictingFor').format('dddd');
   }.property(),
   dayOfWeekPercent: function() {
-    var data = this.get('model.station').bikeCounts.dayOfWeek[moment().weekday()];
+    var data = this.get('model.station').bikeCounts.dayOfWeek[this.get('predictingFor').weekday()];
     return data.count / data.total;
   }.property(),
   nearestFifteen: function() {
-    var now = moment();
+    var now = this.get('predictingFor').clone();
     var minute = now.minute();
     var nearestFifteen = Math.round(4 *( minute / 60)) * 15;
     return now.minute(nearestFifteen);
@@ -39,7 +51,7 @@ export default Ember.Controller.extend({
     return inService / (inService + outOfService);
   }.property('model'),
   currentWeather: function() {
-    return this.get('model.weather.hourly.data')[moment().hour()];
+    return this.get('model.weather.hourly.data')[this.get('predictingFor').hour()];
   }.property('model'),
   degreesInTens: function() {
     return Math.floor(this.get('currentWeather').temperature / 10) * 10;
@@ -57,7 +69,7 @@ export default Ember.Controller.extend({
     return data.count / this.get('bikeTruePoints');
   }.property('model'),
   pDayOfWeekTrue: function() {
-    var data = this.get('model.station.bikeCounts.dayOfWeek.%@'.fmt(moment().weekday()));
+    var data = this.get('model.station.bikeCounts.dayOfWeek.%@'.fmt(this.get('predictingFor').weekday()));
     return data.count / this.get('bikeTruePoints');
   }.property('model'),
   pDegreesTrue: function() {
@@ -74,7 +86,7 @@ export default Ember.Controller.extend({
     return (data.total - data.count) / this.get('bikeFalsePoints');
   }.property('model'),
   pDayOfWeekFalse: function() {
-    var data = this.get('model.station.bikeCounts.dayOfWeek.%@'.fmt(moment().weekday()));
+    var data = this.get('model.station.bikeCounts.dayOfWeek.%@'.fmt(this.get('predictingFor').weekday()));
     return (data.total - data.count) / this.get('bikeFalsePoints');
   }.property('model'),
   pDegreesFalse: function() {

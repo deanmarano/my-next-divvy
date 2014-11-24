@@ -8,6 +8,8 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('stations', {path: '/'}, function() {
     this.resource('station', {path: '/station/:id'}, function() {
+      this.route('multi', {path: '/'}, function() {
+      });
     });
   });
 });

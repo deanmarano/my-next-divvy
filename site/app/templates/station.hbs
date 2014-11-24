@@ -12,7 +12,7 @@
   {{bind-attr src=googleMapsUrl}}>
 </iframe>
 
-<h2>Curret Weather</h2>
+<h2>Current Weather</h2>
 <ul>
   <li> <strong>Temperature:</strong> {{currentWeather.temperature}}° F</li>
   <li> <strong>Conditions:</strong> {{currentWeather.summary}}</li>
@@ -45,7 +45,7 @@ When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summa
   <br>
   P(conditions = {{currentWeather.summary}} | hasBikes = true) = {{h-percent pSummaryTrue}}
   <br>
-<code>
+</code>
 
 <br>
 
@@ -58,7 +58,7 @@ When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summa
   <br>
   P(conditions = {{currentWeather.summary}} | hasBikes = false) = {{h-percent pSummaryFalse}}
   <br>
-<code>
+</code>
 
 <br>
 
@@ -68,4 +68,9 @@ When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summa
   P({{dayOfWeek}} | false) P({{nearestFifteenDisplay}} | false) P({{degreesInTens}}°s | false) P({{currentWeather.summary}} | false) = {{h-percent pTotalFalse}}
   <br>
   {{h-percent pTotalTrue}} / ({{h-percent pTotalTrue}} + {{h-percent pTotalFalse}}) = {{h-percent pHasBikes}}
-<code>
+</code>
+
+<br>
+<br>
+
+{{outlet}}

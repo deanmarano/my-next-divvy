@@ -1,0 +1,6 @@
+<h3>I'm {{h-percent bestPrediction.percent}} sure there will be {{bestPrediction.numBikes}} bikes available.</h3>
+<div style="border: 1px solid black; width: 400px;">
+  {{#each prediction in predictions}}
+    <div class="bar" {{bind-attr style=prediction.style}}>{{h-percent prediction.percent}}</div>
+  {{/each}}
+</div>
