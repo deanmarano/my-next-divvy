@@ -7,16 +7,16 @@ var forecastUrl = 'https://api.forecast.io/forecast/',
     longitude = '-87.6277394859';
 
 //var dates = jf.readFileSync('./days.json');
-var dates = ['2014-11-21',
-             '2014-11-22',
-             '2014-11-23',
-             '2014-11-24',
-             '2014-11-25',
-             '2014-11-26',
-             '2014-11-27',
-             '2014-11-28',
-             '2014-11-29',
-             '2014-11-30'];
+var dates = ['2014-12-01',
+             '2014-12-02',
+             '2014-12-03',
+             '2014-12-04',
+             '2014-12-05',
+             '2014-12-06',
+             '2014-12-07',
+             '2014-12-08',
+             '2014-12-09',
+             '2014-12-10'];
 
 dates.forEach(function(dateStr) {
   console.log('fetching weather data for: ' + dateStr);
