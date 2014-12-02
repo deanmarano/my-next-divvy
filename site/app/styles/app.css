@@ -24,7 +24,10 @@ header {
 
 header .words {
   position: relative;
-  top: -10px;
+  top: -6px;
+  padding-right: 10px;
+  font-size: 42px;
+  text-transform: uppercase;
 }
 
 .HolyGrail-body {
