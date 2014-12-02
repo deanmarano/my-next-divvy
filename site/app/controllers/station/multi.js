@@ -9,7 +9,6 @@ export default Ember.Controller.extend({
     var truePs = variables.map(function(v) {
       var dayOfWeek = data.bikeCounts[v][current[v]];
       // number of times it's Sunday and there are 6 bikes
-      if(!dayOfWeek) { debugger }
       var dayHasXBikes = dayOfWeek.points[bikeCount] || 0;
       // total number of times there are 6 bikes
       var allHasXBikes = Object.keys(data.bikeCounts[v]).map(function(weekday) {
