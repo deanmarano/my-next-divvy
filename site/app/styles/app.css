@@ -30,6 +30,10 @@ header .words {
   text-transform: uppercase;
 }
 
+footer {
+  text-align: center;
+}
+
 .HolyGrail-body {
   display: flex;
   flex-direction: column;
