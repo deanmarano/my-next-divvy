@@ -1,6 +1,7 @@
-html, body {
+html, body, body > div {
   margin: 0px;
   font-family: helvetica;
+  height: 100%;
 }
 
 .bar {

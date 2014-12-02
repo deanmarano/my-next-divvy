@@ -63,11 +63,11 @@ When it's {{currentWeather.summary}}, there are normally bikes {{h-percent summa
 <br>
 
 <code>
-  P({{dayOfWeek}} | true) P({{nearestFifteenDisplay}} | true) P({{degreesInTens}}°s | true) P({{currentWeather.summary}} | true) = {{h-percent pTotalTrue}}
+  P({{dayOfWeek}} | true) P({{nearestFifteenDisplay}} | true) P({{degreesInTens}}°s | true) P({{currentWeather.summary}} | true) = {{h-percent pTotalTrue 100}}
   <br>
-  P({{dayOfWeek}} | false) P({{nearestFifteenDisplay}} | false) P({{degreesInTens}}°s | false) P({{currentWeather.summary}} | false) = {{h-percent pTotalFalse}}
+  P({{dayOfWeek}} | false) P({{nearestFifteenDisplay}} | false) P({{degreesInTens}}°s | false) P({{currentWeather.summary}} | false) = {{h-percent pTotalFalse 100}}
   <br>
-  {{h-percent pTotalTrue}} / ({{h-percent pTotalTrue}} + {{h-percent pTotalFalse}}) = {{h-percent pHasBikes}}
+  {{h-percent pTotalTrue 100}} / ({{h-percent pTotalTrue 100}} + {{h-percent pTotalFalse 100}}) = {{h-percent pHasBikes}}
 </code>
 
 <br>
