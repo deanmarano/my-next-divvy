@@ -1,0 +1,1 @@
+curl https://www.divvybikes.com/stations/json/  -o "/Users/dmarano/project/final-project/divvy/divvy-$(date +%Y-%m-%d--%H:%M).json"
